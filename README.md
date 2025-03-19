@@ -11,17 +11,7 @@ The assessment is divided into four main sections:
    - Covers both frontend and backend issues
    - Focuses on error handling, performance, and security
 
-2. **Code Refactoring**
-   - Evaluates ability to improve code quality in a React e-commerce application
-   - Focuses on component structure, state management, and TypeScript
-   - Tests understanding of React best practices and performance optimization
-
-3. **Ad-hoc Requirements**
-   - Tests ability to implement new features in a social media feed application
-   - Focuses on implementing a reaction system
-   - Evaluates frontend development and state management skills
-
-4. **Scalability**
+2. **Scalability**
    - Assesses ability to handle high-traffic scenarios in a Node.js/Express application
    - Focuses on implementing rate limiting and optimizing database operations
    - Tests understanding of scalability patterns and best practices
