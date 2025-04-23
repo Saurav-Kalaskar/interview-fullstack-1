@@ -2,13 +2,19 @@
   "name": "task-manager-backend",
   "version": "1.0.0",
   "description": "Task Manager Backend with Intentional Bugs",
+  "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
-    "dev": "nodemon src/index.ts",
+    "dev": "nodemon --watch src --exec \"node --loader ts-node/esm\" src/index.ts",
     "build": "tsc",
     "test": "jest"
   },
+  "ts-node": {
+  "esm": true,
+  "transpileOnly": true,
+  "experimentalSpecifierResolution": "node"
+},
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
